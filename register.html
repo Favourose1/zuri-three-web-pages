@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-CompaTIBLE" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+
+
+    <body>
+
+
+        <div class="main">
+
+
+
+
+            <form action="submission.html" method="GET">
+
+
+                <legend>Register Here</legend>
+
+                <input type="text" class="firstname" name="firstname" placeholder="firstname" type="text"
+                    pattern="[^.]*? minlength=" 3" maxlength="15" required>
+                <br><br>
+
+                <input type="text" class="lastname" name="lastname" placeholder="lastname" type="text"
+                    pattern="[^.]*? minlength=" 3" maxlength="15" required>
+                <br><br>
+
+                <input type="text" class="phonenumber" name="phonenumber" placeholder="Phone Number" type="text"
+                    pattern="[^.]*? minlength=" 11" maxlength="11" required>
+                <br><br>
+
+                <input type="text" class="email" name="Email Address" placeholder="Email Address" type="text">
+                <br><br>
+
+                <select id="sex" name="sex" size="1">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select><br><br>
+
+                <input type="text" class="dateofbirth" name="dateofbirth" placeholder="Date of Birth" type="text">
+                <br><br>
+
+                <input type="text" class="favouritecolor" name="Favourite Color" placeholder="Favourite Color"
+                    type="text">
+                <br><br>
+
+                <input type="text" class="Password" name="Password" placeholder="Password" type="password"
+                    minlength="8" maxlength="15" required>
+                <br><br>
+
+                <a href="login.html"><input type="button" value="Submit" id="button"></a>
+            </form>
+
+        </div>
+
+    </body>
+
+</html>

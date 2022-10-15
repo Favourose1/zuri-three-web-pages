@@ -1,0 +1,35 @@
+body {
+    background-color: aliceblue;
+}
+
+
+.main {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+legend {
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    width: 60%;
+}
+
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid coral;
+    width: 150%;
+    height: 30px;
+}
+
+#button {
+    background-color: coral;
+    color: antiquewhite;
+    border-color: coral;
+    width: 100px;
+    height: 30px;
+}
